@@ -1,0 +1,62 @@
+body{
+
+	font-family: 'Karla', sans-serif;
+	background-color: #e6eff6;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 700;
+}
+
+li{
+	font-size: 14px;
+	opacity: .75;
+}
+
+
+.container{
+	background-color: white;
+	border-radius: 12px;
+}
+
+.grey_text{
+	color: #c5c9cf; 
+}
+
+.h4_titular{
+	color: #2bb3b1;
+}
+
+.h5_subtitular{
+	color: #bfdf33;
+}
+
+.left_side{
+	background-color: #2bb3b1;
+	border-radius: 0 0 0 12px;
+}
+
+.btn_principal{
+	background-color:#bfdf33;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 12px 0;
+}
+
+.right_side{
+	background-color: #4abebd;
+	border-radius: 0 0 12px 0;
+}
+footer{
+	font-size: 12px;
+}
+
+@media (max-width: 400px){
+	.right_side{
+		border-radius: 0 0 12px 12px;
+	}
+
+	.left_side{border-radius: 0;}
+}
